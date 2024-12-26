@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*containers*/
+
+.fullContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 88px;
+    background: #07081A;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    border-bottom: 1px solid #261C51;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    border-top: 1px solid #261C51;
+}
+
+/*nav*/
+
+.navTextContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.pink {
+    color: #B968DE;
+}
+
+.white {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.imgLogo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.userLogo {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #9100D3     
+}
+
+/*main*/
+
+.headerContainer {
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.mainHeader {
+    color: #FFF;
+    text-align: center;
+    align-self: stretch;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+.mainText {
+    color: #C0C0C0;
+    align-self: stretch;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.buttonDownload {
+    max-width: 186px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #9100D3;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.logoContainer {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    height: 72px;
+    padding: 0px 72px 24px 72px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+
+.companyLogo {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 8px;
+}
+
+.companyName {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.cardContainer {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.cardContainerMini {
+    display: flex;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.cardHeader {
+    align-self: stretch;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.cardText {
+    align-self: stretch;
+    color: #C0C0C0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/*footer*/
+
+.footerTextContainer {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerText {
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
